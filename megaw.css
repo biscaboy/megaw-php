@@ -1,0 +1,575 @@
+@charset "UTF-8";
+/* CSS Document */
+/* www.megawtheatreinc.com - version 201904 */
+*,
+*:after,
+*:before: {
+    box-sizing: inherit;
+}
+
+ html, body {
+	 box-sizing: border-box;
+	 margin: 0px;
+	 padding: 0px;
+	 border: 0px;
+	 font-family:Arial, Helvetica, sans-serif;
+	 color: #000;
+ }
+
+body {
+	color: #333333
+	background-color: #FFFFFF;
+	margin: 0;
+
+}
+
+h1 {
+	color: #542847;
+	 font-family:'Raleway', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	color: #542847;
+}
+
+h3 {
+	color: #542847;
+
+}
+
+h4 {
+	color: #542847;
+	margin:5px 0px 5px 0px;
+}
+
+p {
+	color:#000000;
+	font-size:14px;
+
+}
+
+a {
+	color: #157504;
+}
+
+
+a:link {
+    color: #157504;
+}
+
+a:visited {
+    color: #157504;
+}
+
+a:hover {
+    color: #22c206;
+}
+
+a:active {
+	color: #157504;
+
+}
+
+a img { border: 0; }
+
+td {
+
+}
+
+.tagline {
+	font-family: 'Exo 2', sans-serif;
+	font-style: normal;
+}
+
+.tagline .ignite {
+	color: #FF0000;
+	font-family: 'Exo 2', sans-serif;
+	font-style: italic;
+}
+
+#container {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ width: 100%;
+ margin: 0 auto;
+ padding: 0;
+ height:100%;
+}
+
+
+header {
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0;
+ float: left;
+ width:100%;
+ border:0;
+ }
+
+#tagline {
+ font-family: Ariel, serif;
+ font-style:italic;
+ font-size:16px;
+ text-align:center;
+ margin:0 0 5px 0;
+ }
+
+.hamburger{
+  display: none;
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  display: none;
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  padding:0px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:3em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+
+.menu ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  padding-left: 8px;
+  /* border: solid 1px #ccc; */
+  background: #542847;
+	display: block;
+	list-style-type: none;
+	box-shadow: 2px 2px 10px #888888;
+	border-radius: 5px;
+	height: 36px;
+}
+
+.menu li {
+  width: 14%;
+  text-align: center;
+	float:left;
+}
+
+.menu li a {
+  display: block;
+  color: #eee;
+  padding-top: 8px;
+  font-family:'Raleway', sans-serif, "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: small-caps;
+  font-size: 14px;
+  border-bottom: 2px solid #542847;
+  transition-property: border-bottom;
+  transition-duration: .5s;
+}
+
+.menu li a:hover {
+    border-bottom: 2px solid #eee;
+}
+
+
+@keyframes menuLift {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-3px);
+  }
+}
+
+@-webkit-keyframes menuLift {
+    0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-3px);
+  }
+
+}
+
+@keyframes menuBounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-5px);
+  }
+
+  70% {
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes menuBounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  55% {
+    transform: translateY(-5px);
+  }
+
+  70% {
+    transform: translateY(0);
+  }
+
+  85% {
+    transform: translateY(-3px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+
+}
+
+a.menuitem{
+	border-left:solid 2px #666666;
+}
+
+a.startmenuitem {}
+
+#content {
+	 width: 720px;
+	 float: left;
+	 height:100%;
+	 background: url(images/bglogo.jpg) no-repeat fixed 50% 0;
+	 min-height: 720px;
+ }
+
+#content #main {
+	padding:15px 0px 0px 0px;
+	float:left;
+	width:100%;
+	height:100%;
+
+}
+
+#exlink {
+	color:#0000FF;
+}
+
+#content #footer {
+	width:720px;
+	text-align:center;
+	float:left;
+	font-size:10px;
+	font-style:italic;
+	margin: 10px 0 0 0;
+}
+
+.slideshow { height: 333px; width: 500px; margin:0px 0px 42px 100px;  }
+.slideshow img { padding: 15px; border: 1px solid #ccc; background-color: #eee; float:left; }
+
+#main #mainheader {
+	font-family: 'Raleway', sans-serif;
+	font-variant: small-caps;
+	margin: 0px 0px 20px 0px;
+	text-align: center;
+}
+
+#main #maincol {
+	width:75%;
+	margin:0 auto 15px auto;
+}
+
+#maincol #instructor {
+	width:100%;
+	float:left;
+	padding-bottom:15px;
+	padding-top:5px;
+}
+
+#maincol #instructortext {
+	width:100%;
+	float:left;
+}
+
+.box {
+	float: left;
+	width: 33%;
+}
+
+.boxheader {
+	background: #542847;
+	border-left: 2px #542847 solid;
+	border-right: 2px #542847 solid;
+	border-top: 2px #542847 solid;
+	width:90%;
+	height:50px;
+	margin: 20px 10px 0 10px;
+	box-shadow: 2px 0 10px #888888;
+	border-radius: 5px 5px 0 0;
+
+}
+
+.boxbody {
+	background: #fff;
+	border-left: 2px #999999 solid;
+	border-right: 2px #999999 solid;
+	border-bottom: 2px #999999 solid;
+	width: 90%;
+	margin: 0 10px 0 10px;
+	box-shadow: 2px 5px 10px #888888;
+	min-height: 150px;
+	border-radius: 2px;
+
+}
+
+.boxcontainer{
+	width:100%;
+	display: flex;
+}
+
+.boxheadertxt {
+	padding: 10px 0 0 20px;
+	color:#eee;
+	font-size:16px;
+	font-style:italic;
+}
+
+.boxbodytxt {
+	padding: 15px 10px 25px 10px;
+	font-size:14px;
+	color:#000000;
+	word-wrap: break-word;
+}
+
+#instructor #centertext {
+	text-align:center;
+}
+
+#instructor #instructorphoto {
+	margin:0px 0px 10px 0px;
+	padding-top:25px;
+	padding-left:10px;
+	width: 30%;
+	float:right;
+}
+
+img.headshot {
+	border:solid 2px #999999;
+}
+
+a.hotlink {
+	padding:0px 20px 10px 20px;
+	font-weight:normal;
+	font-style: italic;
+	color:#330099;
+	text-decoration:underline;
+
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#main #centertext {
+	width:85%;
+	float:left;
+	padding-top:5px;
+}
+
+a.hilink {
+	font-style: italic;
+}
+
+.ignite-footer-image {
+	margin: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40 %;
+}
+
+ul.plain-list {
+	list-style-type: none;
+	margin-bottom: 20px;
+}
+
+ul.plain-list li {
+	padding: 5px 0 0 0;
+}
+
+ul.flat-list {
+	list-style-type: disc;
+	margin-bottom: 20px;
+}
+
+ul.flat-list li {
+	padding: 5px 0 0 0;
+	display: inline;
+	white-space:nowrap;
+}
+
+ul.flat-list li:before {
+	content:  " • ";
+}
+
+@media only screen and (max-width: 850px) {
+
+	#container {
+ 		width: 100%;
+ 		height: 100%;
+	 }
+
+	#content {
+		 width: 100%;
+		 float: left;
+		 background: url(images/bglogo.jpg) no-repeat fixed 50% 0;
+	 }
+
+	#tagline {
+		 font-family: Ariel, serif;
+		 font-style:italic;
+		 font-size:16px;
+		 text-align:center;
+		 margin:0 0 5px 0;
+	 }
+
+	 #content #footer {
+		width:100%;
+		text-align:center;
+		float:left;
+		font-size:10px;
+		font-style:italic;
+		margin: 10px 0 0 0;
+	}
+
+	a img {
+    	border: 0;
+    	width: 100%;
+	}
+
+
+	.hamburger{
+	  display: block;
+	}
+
+	.cross{
+	  display: none;
+	}
+
+.menu{
+	display: none;
+	z-index:1000000;
+	font-weight:bold;
+	font-size:0.8em;
+	width:100%;
+	background:#f1f1f1;
+	position:absolute;
+	top: 0;
+	left:0;
+	text-align:center;
+	font-size:12px;
+}
+
+.menu ul {
+	box-shadow: none;
+    border-radius: unset;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none;
+    height: unset;
+}
+
+.menu li {
+	float: none;
+	margin: unset;
+	padding:15px 0 15px 0;
+	border-bottom:#dddddd 1px solid;
+}
+.menu li:hover {
+	display: block;
+	color:#542847;
+	background:#ffffff;
+	padding:15px 0 15px 0;
+	border-bottom:#dddddd 1px solid;
+}
+
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+}
+
+@media only screen and (max-width: 650px) {
+
+	#instructor #instructorphoto {
+		margin:0px 0px 10px 0px;
+		padding-top: 0px;
+		padding-left:0px;
+		width: 100%;
+		float:none;
+	}
+
+	.boxcontainer {
+		display: block;
+	}
+
+	.box {
+		width: 45%;
+		float:none;
+		margin-left: auto;
+    	margin-right: auto;
+		min-width: 300px;
+	}
+}
+
+/* Smartphones | <480px */
+@media only screen and (max-width: 480px) {
+
+	.box {
+		width: 80%;
+	}
+
+}
+
+/* Smartphones | <320px */
+@media only screen and (max-width: 320px) {
+
+	.box {
+		width: 95%;
+	}
+
+}
+/* Small screens | <1120px */
+/* Smaller screens | <1120px */
+/* Tablets (landscape) | <960px */
+/* Tablets (portrait) | <800px */
+/* Phablets (portrait) | <640px */
+/* Smartphones | <480px */
+/* Smartphones | <320px */
+/* Big Screens Navi Fix | >720px */
