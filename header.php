@@ -9,7 +9,7 @@
     <meta name="keywords" content="theatre, film, Elaine Moe, Elaine EE Moe, workshop, acting, courses, professional studies, master class, Phoenix, Arizona, Scottsdale, scene study, character development, cold readings, on-camera, auditions" />
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
     <meta name="mobile-web-app-capable" content="yes">
-    <link href="megaw.css?v=20200617" rel="stylesheet" type="text/css" />
+    <link href="megaw.css?v=ZWLYgDYjjh" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed|Raleway' rel='stylesheet' type='text/css'>
     <title>Megaw Theatre and Actors Studio</title>
     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.1.min.js"></script>
@@ -18,18 +18,18 @@
     <div id="container">
         <div id="content" class="homepage">
             <header>
-                <a href="index.php?v=20200617"><img id="smlogo" src="images/mainheader-purple.png" alt="The Megaw Theatre and Actors Studio"/></a>
+                <a href="index.php?v=ZWLYgDYjjh"><img id="smlogo" src="images/mainheader-purple.png" alt="The Megaw Theatre and Actors Studio"/></a>
                 <p id="tagline">Professional training for serious careers in theatre and film.</p>
                 <button class="hamburger">&#9776;</button>
                 <button class="cross">&#735;</button>
                 <nav class="menu">
                     <ul>
-                        <li><a href="index.php?v=20200617">Home</a></li>
-                        <li><a href="coaches.php?v=20200617">Coaches</a></li>
-                        <li><a href="contact.php?v=20200617">Contact</a></li>
-                        <li><a href="sydmmsafund.php?v=20200617">Legacy</a></li>
-                        <li><a href="payments.php?v=20200617">Payments</a></li>
-                        <li><a href="about.php?v=20200617">About</a></li>
+                        <li><a href="index.php?v=ZWLYgDYjjh">Home</a></li>
+                        <li><a href="coaches.php?v=ZWLYgDYjjh">Coaches</a></li>
+                        <li><a href="contact.php?v=ZWLYgDYjjh">Contact</a></li>
+                        <li><a href="sydmmsafund.php?v=ZWLYgDYjjh">Legacy</a></li>
+                        <li><a href="payments.php?v=ZWLYgDYjjh">Payments</a></li>
+                        <li><a href="about.php?v=ZWLYgDYjjh">About</a></li>
                         <li><a href="studio">Studio</a></li>
                     </ul>
                 </nav>

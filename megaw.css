@@ -76,6 +76,21 @@ td {
 
 }
 
+blockquote {
+  border-left: solid 1px #000;
+  margin-left: 10px;
+  font-style: italic;
+
+}
+
+.quote {
+  padding: 10px;
+}
+
+.quote-attrib {
+  margin: 10px 0 0 10px;
+}
+
 .tagline {
 	font-family: 'Exo 2', sans-serif;
 	font-style: normal;
@@ -106,6 +121,10 @@ header {
  width:100%;
  border:0;
  }
+
+#ignite-announcement {
+  margin-top: 50px;
+}
 
 #tagline {
  font-family: Ariel, serif;

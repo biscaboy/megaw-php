@@ -1,5 +1,5 @@
 
-	    <div id="footer"> &copy; 2018 - The Megaw Theatre AZ/CA.  All Rights Reserved.  &bull; Design: <a href="http://www.davidjdickinson.com">DJD Creative</a></div>
+	    <div id="footer"> &copy; 2022 - The Megaw Theatre AZ/CA.  All Rights Reserved.  &bull; Website: <a href="http://www.davidjdickinson.com">DJD Creative</a></div>
 	    </div>
 	</div>
 </div>
