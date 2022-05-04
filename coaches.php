@@ -9,7 +9,7 @@
                     	<h2><a name="ee"></a>Elaine "EE" Moe</h2>
                         <h3>Artistic Director, Lead Coach</h3>
                         <div id="instructortext">
-                        <div id="instructorphoto"><img class="headshot" src="photos/ee.jpg"  /> </div>
+                        <div id="instructorphoto"><img class="headshot" src="photos/ee-2022.jpg" width="240" /> </div>
                         <p>
                         	Elaine “E.E.” Moe (Artistic Director/Lead Coach) AZ/CA career spans 55+ years in the arts, education, corporate and entertainment industry.  Critical honors for decades producing, directing, acting, civic and cultural engagement reflect her lifelong dedication advocating, mentoring and engaging artists parity in theatre & film through Diversity, Equity and Inclusion in all mediums.
 
