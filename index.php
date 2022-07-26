@@ -10,8 +10,8 @@
                 </blockquote>
         </article>
         <article id="ignite-announcement">
-          <h1>Summer and Fall Workshops</H1>
-          <p>The <a href="ignite.php?v=ZWLYgDYjjh">Summer Ignite Your Career Workshop</a> is open for enrollment!  </p>
+          <h1>Fall Workshops</H1>
+          <p>The Fall Workshops begin September 11, 2022!</p>
           <p>Call us to <a href="contact.php?v=ZWLYgDYjjh" >reserve your spot!</a></p>
         </article>
     </div>
