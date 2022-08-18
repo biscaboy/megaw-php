@@ -11,7 +11,7 @@
         </article>
         <article id="ignite-announcement">
           <h1>Fall Workshops</H1>
-          <p>The Fall Workshops begin September 11, 2022!</p>
+          <p>The Fall Workshops begin September 12, 2022!</p>
           <p>Call us to <a href="contact.php?v=ZWLYgDYjjh" >reserve your spot!</a></p>
         </article>
     </div>
